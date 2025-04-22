@@ -1,0 +1,425 @@
+﻿namespace Otomasyon.Modul_Banka
+{
+    partial class frmBankaAcilisKarti
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBankaAcilisKarti));
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.txtSubeTel = new DevExpress.XtraEditors.TextEdit();
+            this.txtYTEmail = new DevExpress.XtraEditors.TextEdit();
+            this.txtYetkiliTemsilci = new DevExpress.XtraEditors.TextEdit();
+            this.txtBankaSubesi = new DevExpress.XtraEditors.TextEdit();
+            this.txtHesapAdi = new DevExpress.XtraEditors.TextEdit();
+            this.txtHesapNo = new DevExpress.XtraEditors.TextEdit();
+            this.txtIban = new DevExpress.XtraEditors.TextEdit();
+            this.txtBankaAdi = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
+            this.btnSil = new DevExpress.XtraEditors.SimpleButton();
+            this.btnKapat = new DevExpress.XtraEditors.SimpleButton();
+            this.btnKaydet = new DevExpress.XtraEditors.SimpleButton();
+            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.txtAdres = new DevExpress.XtraEditors.MemoEdit();
+            this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
+            this.Liste = new DevExpress.XtraGrid.GridControl();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.ID = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.BankaAdi = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.HesapAdi = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.Bakiye = new DevExpress.XtraGrid.Columns.GridColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
+            this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtSubeTel.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtYTEmail.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtYetkiliTemsilci.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBankaSubesi.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtHesapAdi.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtHesapNo.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIban.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBankaAdi.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtAdres.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
+            this.groupControl3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Liste)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // groupControl1
+            // 
+            this.groupControl1.Controls.Add(this.txtSubeTel);
+            this.groupControl1.Controls.Add(this.txtYTEmail);
+            this.groupControl1.Controls.Add(this.txtYetkiliTemsilci);
+            this.groupControl1.Controls.Add(this.txtBankaSubesi);
+            this.groupControl1.Controls.Add(this.txtHesapAdi);
+            this.groupControl1.Controls.Add(this.txtHesapNo);
+            this.groupControl1.Controls.Add(this.txtIban);
+            this.groupControl1.Controls.Add(this.txtBankaAdi);
+            this.groupControl1.Controls.Add(this.labelControl7);
+            this.groupControl1.Controls.Add(this.labelControl8);
+            this.groupControl1.Controls.Add(this.labelControl9);
+            this.groupControl1.Controls.Add(this.btnSil);
+            this.groupControl1.Controls.Add(this.btnKapat);
+            this.groupControl1.Controls.Add(this.btnKaydet);
+            this.groupControl1.Controls.Add(this.labelControl4);
+            this.groupControl1.Controls.Add(this.labelControl5);
+            this.groupControl1.Controls.Add(this.labelControl6);
+            this.groupControl1.Controls.Add(this.labelControl3);
+            this.groupControl1.Controls.Add(this.labelControl2);
+            this.groupControl1.Controls.Add(this.labelControl1);
+            this.groupControl1.Controls.Add(this.txtAdres);
+            this.groupControl1.Location = new System.Drawing.Point(0, 0);
+            this.groupControl1.Name = "groupControl1";
+            this.groupControl1.Size = new System.Drawing.Size(512, 377);
+            this.groupControl1.TabIndex = 0;
+            this.groupControl1.Text = "Banka Bilgileri";
+            // 
+            // txtSubeTel
+            // 
+            this.txtSubeTel.EditValue = "";
+            this.txtSubeTel.Location = new System.Drawing.Point(150, 213);
+            this.txtSubeTel.Name = "txtSubeTel";
+            this.txtSubeTel.Size = new System.Drawing.Size(125, 22);
+            this.txtSubeTel.TabIndex = 27;
+            // 
+            // txtYTEmail
+            // 
+            this.txtYTEmail.EditValue = "";
+            this.txtYTEmail.Location = new System.Drawing.Point(150, 350);
+            this.txtYTEmail.Name = "txtYTEmail";
+            this.txtYTEmail.Size = new System.Drawing.Size(125, 22);
+            this.txtYTEmail.TabIndex = 26;
+            // 
+            // txtYetkiliTemsilci
+            // 
+            this.txtYetkiliTemsilci.EditValue = "";
+            this.txtYetkiliTemsilci.Location = new System.Drawing.Point(150, 322);
+            this.txtYetkiliTemsilci.Name = "txtYetkiliTemsilci";
+            this.txtYetkiliTemsilci.Size = new System.Drawing.Size(125, 22);
+            this.txtYetkiliTemsilci.TabIndex = 25;
+            // 
+            // txtBankaSubesi
+            // 
+            this.txtBankaSubesi.EditValue = "";
+            this.txtBankaSubesi.Location = new System.Drawing.Point(150, 178);
+            this.txtBankaSubesi.Name = "txtBankaSubesi";
+            this.txtBankaSubesi.Size = new System.Drawing.Size(125, 22);
+            this.txtBankaSubesi.TabIndex = 23;
+            // 
+            // txtHesapAdi
+            // 
+            this.txtHesapAdi.EditValue = "";
+            this.txtHesapAdi.Location = new System.Drawing.Point(150, 71);
+            this.txtHesapAdi.Name = "txtHesapAdi";
+            this.txtHesapAdi.Size = new System.Drawing.Size(125, 22);
+            this.txtHesapAdi.TabIndex = 22;
+            // 
+            // txtHesapNo
+            // 
+            this.txtHesapNo.EditValue = "";
+            this.txtHesapNo.Location = new System.Drawing.Point(150, 107);
+            this.txtHesapNo.Name = "txtHesapNo";
+            this.txtHesapNo.Size = new System.Drawing.Size(125, 22);
+            this.txtHesapNo.TabIndex = 21;
+            // 
+            // txtIban
+            // 
+            this.txtIban.EditValue = "";
+            this.txtIban.Location = new System.Drawing.Point(150, 148);
+            this.txtIban.Name = "txtIban";
+            this.txtIban.Size = new System.Drawing.Size(125, 22);
+            this.txtIban.TabIndex = 20;
+            // 
+            // txtBankaAdi
+            // 
+            this.txtBankaAdi.EditValue = "";
+            this.txtBankaAdi.Location = new System.Drawing.Point(150, 43);
+            this.txtBankaAdi.Name = "txtBankaAdi";
+            this.txtBankaAdi.Size = new System.Drawing.Size(125, 22);
+            this.txtBankaAdi.TabIndex = 19;
+            // 
+            // labelControl7
+            // 
+            this.labelControl7.Location = new System.Drawing.Point(37, 346);
+            this.labelControl7.Name = "labelControl7";
+            this.labelControl7.Size = new System.Drawing.Size(60, 16);
+            this.labelControl7.TabIndex = 15;
+            this.labelControl7.Text = "Y/T Email:";
+            // 
+            // labelControl8
+            // 
+            this.labelControl8.Location = new System.Drawing.Point(37, 311);
+            this.labelControl8.Name = "labelControl8";
+            this.labelControl8.Size = new System.Drawing.Size(89, 16);
+            this.labelControl8.TabIndex = 14;
+            this.labelControl8.Text = "Yetkili Temsilci:";
+            // 
+            // labelControl9
+            // 
+            this.labelControl9.Location = new System.Drawing.Point(37, 246);
+            this.labelControl9.Name = "labelControl9";
+            this.labelControl9.Size = new System.Drawing.Size(38, 16);
+            this.labelControl9.TabIndex = 13;
+            this.labelControl9.Text = "Adres:";
+            // 
+            // btnSil
+            // 
+            this.btnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSil.ImageOptions.Image")));
+            this.btnSil.Location = new System.Drawing.Point(371, 88);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(94, 29);
+            this.btnSil.TabIndex = 11;
+            this.btnSil.Text = "Sil";
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
+            // 
+            // btnKapat
+            // 
+            this.btnKapat.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnKapat.ImageOptions.Image")));
+            this.btnKapat.Location = new System.Drawing.Point(371, 141);
+            this.btnKapat.Name = "btnKapat";
+            this.btnKapat.Size = new System.Drawing.Size(94, 29);
+            this.btnKapat.TabIndex = 12;
+            this.btnKapat.Text = "Kapat";
+            this.btnKapat.Click += new System.EventHandler(this.btnKapat_Click);
+            // 
+            // btnKaydet
+            // 
+            this.btnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnKaydet.ImageOptions.Image")));
+            this.btnKaydet.Location = new System.Drawing.Point(371, 46);
+            this.btnKaydet.Name = "btnKaydet";
+            this.btnKaydet.Size = new System.Drawing.Size(94, 29);
+            this.btnKaydet.TabIndex = 10;
+            this.btnKaydet.Text = "Kaydet";
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
+            // 
+            // labelControl4
+            // 
+            this.labelControl4.Location = new System.Drawing.Point(37, 216);
+            this.labelControl4.Name = "labelControl4";
+            this.labelControl4.Size = new System.Drawing.Size(81, 16);
+            this.labelControl4.TabIndex = 8;
+            this.labelControl4.Text = "Şube Telefon:";
+            // 
+            // labelControl5
+            // 
+            this.labelControl5.Location = new System.Drawing.Point(37, 181);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(81, 16);
+            this.labelControl5.TabIndex = 7;
+            this.labelControl5.Text = "Banka Şubesi:";
+            // 
+            // labelControl6
+            // 
+            this.labelControl6.Location = new System.Drawing.Point(37, 148);
+            this.labelControl6.Name = "labelControl6";
+            this.labelControl6.Size = new System.Drawing.Size(30, 16);
+            this.labelControl6.TabIndex = 6;
+            this.labelControl6.Text = "İban:";
+            // 
+            // labelControl3
+            // 
+            this.labelControl3.Location = new System.Drawing.Point(37, 110);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(59, 16);
+            this.labelControl3.TabIndex = 2;
+            this.labelControl3.Text = "Hesap No:";
+            // 
+            // labelControl2
+            // 
+            this.labelControl2.Location = new System.Drawing.Point(37, 75);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(94, 16);
+            this.labelControl2.TabIndex = 1;
+            this.labelControl2.Text = "Hesap Türü/Adı:";
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Location = new System.Drawing.Point(37, 46);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(61, 16);
+            this.labelControl1.TabIndex = 0;
+            this.labelControl1.Text = "Banka Adı:";
+            // 
+            // txtAdres
+            // 
+            this.txtAdres.EditValue = "";
+            this.txtAdres.Location = new System.Drawing.Point(150, 246);
+            this.txtAdres.Name = "txtAdres";
+            this.txtAdres.Size = new System.Drawing.Size(125, 54);
+            this.txtAdres.TabIndex = 24;
+            // 
+            // groupControl3
+            // 
+            this.groupControl3.Controls.Add(this.Liste);
+            this.groupControl3.Location = new System.Drawing.Point(0, 383);
+            this.groupControl3.Name = "groupControl3";
+            this.groupControl3.Size = new System.Drawing.Size(512, 171);
+            this.groupControl3.TabIndex = 1;
+            this.groupControl3.Text = "Banka Listesi";
+            // 
+            // Liste
+            // 
+            this.Liste.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Liste.Location = new System.Drawing.Point(2, 28);
+            this.Liste.MainView = this.gridView1;
+            this.Liste.Name = "Liste";
+            this.Liste.Size = new System.Drawing.Size(508, 141);
+            this.Liste.TabIndex = 0;
+            this.Liste.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
+            // 
+            // gridView1
+            // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.ID,
+            this.BankaAdi,
+            this.HesapAdi,
+            this.Bakiye});
+            this.gridView1.GridControl = this.Liste;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.gridView1.DoubleClick += new System.EventHandler(this.gridView1_DoubleClick);
+            // 
+            // ID
+            // 
+            this.ID.Caption = "ID";
+            this.ID.FieldName = "ID";
+            this.ID.MinWidth = 25;
+            this.ID.Name = "ID";
+            this.ID.Width = 94;
+            // 
+            // BankaAdi
+            // 
+            this.BankaAdi.Caption = "Banka Adı";
+            this.BankaAdi.FieldName = "BankaAdi";
+            this.BankaAdi.MinWidth = 25;
+            this.BankaAdi.Name = "BankaAdi";
+            this.BankaAdi.OptionsColumn.AllowEdit = false;
+            this.BankaAdi.OptionsColumn.AllowFocus = false;
+            this.BankaAdi.OptionsColumn.FixedWidth = true;
+            this.BankaAdi.Visible = true;
+            this.BankaAdi.VisibleIndex = 0;
+            this.BankaAdi.Width = 94;
+            // 
+            // HesapAdi
+            // 
+            this.HesapAdi.Caption = "Hesap Türü";
+            this.HesapAdi.FieldName = "HesapAdi";
+            this.HesapAdi.MinWidth = 25;
+            this.HesapAdi.Name = "HesapAdi";
+            this.HesapAdi.OptionsColumn.AllowEdit = false;
+            this.HesapAdi.OptionsColumn.AllowFocus = false;
+            this.HesapAdi.Visible = true;
+            this.HesapAdi.VisibleIndex = 1;
+            this.HesapAdi.Width = 94;
+            // 
+            // Bakiye
+            // 
+            this.Bakiye.Caption = "Bakiye";
+            this.Bakiye.FieldName = "Bakiye";
+            this.Bakiye.MinWidth = 25;
+            this.Bakiye.Name = "Bakiye";
+            this.Bakiye.OptionsColumn.AllowEdit = false;
+            this.Bakiye.OptionsColumn.AllowFocus = false;
+            this.Bakiye.OptionsColumn.FixedWidth = true;
+            this.Bakiye.Visible = true;
+            this.Bakiye.VisibleIndex = 2;
+            this.Bakiye.Width = 94;
+            // 
+            // frmBankaAcilisKarti
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(519, 586);
+            this.Controls.Add(this.groupControl3);
+            this.Controls.Add(this.groupControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "frmBankaAcilisKarti";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Banka AÇılış Kartı";
+            this.Load += new System.EventHandler(this.frmBankaAcilisKarti_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
+            this.groupControl1.ResumeLayout(false);
+            this.groupControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txtSubeTel.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtYTEmail.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtYetkiliTemsilci.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBankaSubesi.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtHesapAdi.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtHesapNo.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtIban.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBankaAdi.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtAdres.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
+            this.groupControl3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Liste)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraEditors.SimpleButton btnKapat;
+        private DevExpress.XtraEditors.SimpleButton btnSil;
+        private DevExpress.XtraEditors.SimpleButton btnKaydet;
+        private DevExpress.XtraEditors.LabelControl labelControl3;
+        private DevExpress.XtraEditors.LabelControl labelControl2;
+        private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraEditors.GroupControl groupControl3;
+        private DevExpress.XtraEditors.LabelControl labelControl7;
+        private DevExpress.XtraEditors.LabelControl labelControl8;
+        private DevExpress.XtraEditors.LabelControl labelControl9;
+        private DevExpress.XtraEditors.LabelControl labelControl4;
+        private DevExpress.XtraEditors.LabelControl labelControl5;
+        private DevExpress.XtraEditors.LabelControl labelControl6;
+        private DevExpress.XtraEditors.TextEdit txtBankaAdi;
+        private DevExpress.XtraEditors.TextEdit txtSubeTel;
+        private DevExpress.XtraEditors.TextEdit txtYTEmail;
+        private DevExpress.XtraEditors.TextEdit txtYetkiliTemsilci;
+        private DevExpress.XtraEditors.TextEdit txtBankaSubesi;
+        private DevExpress.XtraEditors.TextEdit txtHesapAdi;
+        private DevExpress.XtraEditors.TextEdit txtHesapNo;
+        private DevExpress.XtraEditors.TextEdit txtIban;
+        private DevExpress.XtraEditors.MemoEdit txtAdres;
+        private DevExpress.XtraGrid.GridControl Liste;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.Columns.GridColumn ID;
+        private DevExpress.XtraGrid.Columns.GridColumn BankaAdi;
+        private DevExpress.XtraGrid.Columns.GridColumn HesapAdi;
+        private DevExpress.XtraGrid.Columns.GridColumn Bakiye;
+    }
+}
